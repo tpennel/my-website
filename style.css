@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px
+}
+
+.navbar {
+  background-color: #1f2937;
+}
+
+.navbar .container {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1f2937;
+  padding: 30px 0;
+}
+
+.intro {
+  display: flex;
+  max-height: 400px;
+  max-width: 400px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, 
+p {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+h1 {
+  line-height: 1.15;
+}
+
+p {
+  font-size: 18px;
+  font-weight:lighter;
+}
+
+button {
+  line-height: 1;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0;
+}
+
+.bois {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 0;
+}
+
+.boxes .container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  max-width: 200px;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 20px;
+}
+
+.box p {
+  font-size: 16px;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 50px;
+}
+
+.quote .container {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.quote .container p {
+  color: #1f2937;
+  font-style: italic;
+  font-weight: light;
+}
+
+.source {
+  align-self: flex-end;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.signup .container {
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #3882f6;
+  padding: 20px 50px;
+}
+
+.signup .container p {
+  font-size: 24px;
+}
+
+.signup .container button {
+  border: 3px solid #f9faf8;
+  font-size: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color:#e5e7eb;
+  padding: 30px;
+}
